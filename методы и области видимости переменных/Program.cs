@@ -45,12 +45,12 @@ namespace методы_и_области_видимости_переменных
             
             //for (int i = 0; i < a.Length; i++)
             //{
-            //    if (max<a[i])
+            //    if (max < a[i])
             //    {
             //        max2 = max;
             //        max = a[i];
             //    }
-            //    if (max2<a[i] && a[i]!=max)
+            //    if (max2 < a[i] && a[i] != max)
             //    {
             //        max2 = a[i];
             //    }
