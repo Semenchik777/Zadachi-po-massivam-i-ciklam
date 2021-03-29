@@ -100,7 +100,7 @@ namespace методы_и_области_видимости_переменных
 
             //for (int i = 0; i < a.Length; i++)
             //{
-            //    a[i] = rnd.Next(1,10);
+            //    a[i] = rnd.Next(1, 10);
             //    Console.WriteLine(a[i]);
 
             //}
@@ -138,8 +138,23 @@ namespace методы_и_области_видимости_переменных
             /// </summary>
 
             //int[] a = new int[] { 5, 12, 13, 2, 1, 9, 15, 19, 6 };
+            //int[] b = new int[a.Length];
+            //for (int i = 0; i < a.Length; i++)
+            //{
+            //    b[b.Length - i - 1] = a[i];
+               
+                
+            //}
+            //for (int i = 0; i < b.Length; i++)
+            //{
+                
+            //    Console.WriteLine(b[i]);
+            //}
+            
+            
+            
 
-
+            
 
 
 
