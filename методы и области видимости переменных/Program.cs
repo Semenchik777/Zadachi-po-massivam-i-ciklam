@@ -142,19 +142,30 @@ namespace методы_и_области_видимости_переменных
             //for (int i = 0; i < a.Length; i++)
             //{
             //    b[b.Length - i - 1] = a[i];
-               
-                
+
+
             //}
-            //for (int i = 0; i < b.Length; i++)
+
+            //for (int i = 0; i < a.Length; i++)
             //{
-                
             //    Console.WriteLine(b[i]);
             //}
-            
-            
-            
 
             
+            
+            //Сортировка + в обратнмо порядке не использую массив
+            //int[] a = new int[] { 5, 12, 13, 2, 1, 9, 15, 19, 6 };
+            //Array.Sort(a);
+            //for (int i = a.Length; i > 0; i--)
+            //{
+            //    Console.WriteLine(a[i - 1]);
+
+            //}
+
+
+
+
+
 
 
 
