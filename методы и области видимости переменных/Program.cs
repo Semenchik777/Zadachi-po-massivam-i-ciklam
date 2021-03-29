@@ -199,14 +199,14 @@ namespace методы_и_области_видимости_переменных
             /// </summary>
 
 
-            int[,] m = new int[,] { { 11, 22, 31 }, { 4, 53, 6 }, { 7, 81, 90 } };
-            int dlina = 0;
-            foreach (var i in m)
-            {
-                dlina = dlina + i;
+            //int[,] m = new int[,] { { 11, 22, 31 }, { 4, 53, 6 }, { 7, 81, 90 } };
+            //int dlina = 0;
+            //foreach (var i in m)
+            //{
+            //    dlina = dlina + i;
                 
-            }
-            Console.WriteLine(dlina);
+            //}
+            //Console.WriteLine(dlina);
 
 
             /// <summary>
