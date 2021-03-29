@@ -151,8 +151,14 @@ namespace методы_и_области_видимости_переменных
             //    Console.WriteLine(b[i]);
             //}
 
-            
-            
+            // Лист + сортировка
+            //int[] list = { -71, 9, 6, -3, 43, 8, 10, 12, 14, 3, 9, 5, 791 };
+            //Array.Sort(list);
+            //int max1 = list[list.Length - 1];
+            //int max2 = list[list.Length - 2];
+            //Console.WriteLine(max1);
+            //Console.WriteLine(max2);
+
             //Сортировка + в обратнмо порядке не использую массив
             //int[] a = new int[] { 5, 12, 13, 2, 1, 9, 15, 19, 6 };
             //Array.Sort(a);
