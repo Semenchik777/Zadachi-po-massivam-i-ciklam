@@ -42,7 +42,7 @@ namespace методы_и_области_видимости_переменных
             //int[] a = new int[] { 5, 12, 13, 2, 1, 9, 15, 19, 6 };
             //int max = a[0];
             //int max2 = a[1];
-            
+
             //for (int i = 0; i < a.Length; i++)
             //{
             //    if (max < a[i])
@@ -78,10 +78,10 @@ namespace методы_и_области_видимости_переменных
             ///// Заполнить массив по возрастанию от 1 до 100
             ///// </summary>
 
-            //var a = new int[101];
-            //for (int i = 1; i < a.Length; i++)
+            //var a = new int[100];
+            //for (int i = 1; i <= a.Length; i++)
             //{
-            //    
+
 
             //    Console.WriteLine(i);
 
