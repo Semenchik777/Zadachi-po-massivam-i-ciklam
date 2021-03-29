@@ -187,7 +187,8 @@ namespace методы_и_области_видимости_переменных
             //}
 
             //вариант 2
-            //System.Array.Reverse(a);
+            //int[] a = new int[] { 5, 12, 13, 2, 1, 9, 15, 19, 6 };
+            //Array.Reverse(a);
             //for (int i = 0; i < a.Length; i++)
             //{
             //    Console.WriteLine(a[i]);
@@ -198,13 +199,14 @@ namespace методы_и_области_видимости_переменных
             /// </summary>
 
 
-            //    int[,] m = new int[,] { { 11, 22, 31 }, { 4, 53, 6 }, { 7, 81, 90 } };
-            //int dlina = 0;
-            //foreach (var i in m)
-            //{
-            //    dlina += i;
-            //    Console.WriteLine(dlina);
-            //}
+            int[,] m = new int[,] { { 11, 22, 31 }, { 4, 53, 6 }, { 7, 81, 90 } };
+            int dlina = 0;
+            foreach (var i in m)
+            {
+                dlina = dlina + i;
+                
+            }
+            Console.WriteLine(dlina);
 
 
             /// <summary>
