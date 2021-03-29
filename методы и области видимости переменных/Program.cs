@@ -204,7 +204,7 @@ namespace методы_и_области_видимости_переменных
             //foreach (var i in m)
             //{
             //    dlina = dlina + i;
-                
+
             //}
             //Console.WriteLine(dlina);
 
@@ -223,83 +223,84 @@ namespace методы_и_области_видимости_переменных
             //    for (int j = 0; j < 10; j++)
             //    {
             //        m[i, j] = rnd.Next(1, 10);
-            //        Console.Write(m[i, j]);
+            //        Console.Write($"{m[i, j]}\t");
 
             //    }
             //    Console.WriteLine();
 
 
 
-            //}
+                //}
 
 
-            /// <summary>
-            /// Двумерный массив скопировать в одномерный
-            /// </summary>
+                /// <summary>
+                /// Двумерный массив скопировать в одномерный
+                /// </summary>
 
-            //int[,] m = new int[,] { { 11, 22, 31 }, { 4, 53, 6 }, { 7, 81, 90 } };
-            //int z = 0;
-            //int[] a = new int[m.Length];
-            //for (int i = 0; i < 3; i++)
-            //{
-            //    for (int j = 0; j < 3; j++)
-            //    {
-            //        a[z] = m[i, j];
-            //    Console.WriteLine(a[z]);
-            //    z++;
-            //    }
-            //}
-            //Console.ReadLine();
+                //int[,] m = new int[,] { { 11, 22, 31 }, { 4, 53, 6 }, { 7, 81, 90 } };
+                //int z = 0;
+                //int[] a = new int[m.Length];
+                //for (int i = 0; i < 3; i++)
+                //{
+                //    for (int j = 0; j < 3; j++)
+                //    {
+                //        a[z] = m[i, j];
+                //    Console.WriteLine(a[z]);
+                //    z++;
+                //    }
+                //}
+                //Console.ReadLine();
 
-            /////2 вариант
-            //int[,] m = new int[,] { { 11, 22, 31 }, { 4, 53, 6 }, { 7, 81, 90 } };
-            //int rows = m.GetUpperBound(0) + 1;
-            //int columns = m.Length / rows;
-            //int z = 0;
-            //int[] a = new int[m.Length];
+                /////2 вариант
+                //int[,] m = new int[,] { { 11, 22, 31 }, { 4, 53, 6 }, { 7, 81, 90 } };
+                //int rows = m.GetUpperBound(0) + 1;
+                //int columns = m.Length / rows;
+                //int z = 0;
+                //int[] a = new int[m.Length];
 
-            //foreach (int i in m)
-            //{
-            //    a[z] = i;
-            //    Console.WriteLine(a[z]);
-            //    z++;
-            //}
-
-
-
-
-            /// <summary>
-            /// Заполнить двумерный массив 10 на 10 случайными числами от 1 до 99 и определить количество четных чисел в массиве
-            /// </summary>
-
-            //подсказка: для определения остатка от деления используется оператор %
-            //int ostatok = 4 % 2; //будет равен нулю
-
-            //int sum = 0;
-            //var a = new int[10, 10];
-            //Random rnd = new Random();
-
-            //for (int i = 0; i < 10; i++)
-            //{
-
-            //    for (int j = 0; j < 10; j++)
-            //    {
-            //        a[i, j] = rnd.Next(1, 99);
-            //        if (a[i, j] % 2 == 0)
-            //        {
-            //            sum++;
-
-            //        }
+                //foreach (int i in m)
+                //{
+                //    a[z] = i;
+                //    Console.WriteLine(a[z]);
+                //    z++;
+                //}
 
 
 
-            //    }
-            //}
 
-            //Console.WriteLine(sum);
-            //
+                /// <summary>
+                /// Заполнить двумерный массив 10 на 10 случайными числами от 1 до 99 и определить количество четных чисел в массиве
+                /// </summary>
+
+                //подсказка: для определения остатка от деления используется оператор %
+                //int ostatok = 4 % 2; //будет равен нулю
+
+                //int sum = 0;
+                //var a = new int[10, 10];
+                //Random rnd = new Random();
+
+                //for (int i = 0; i < 10; i++)
+                //{
+
+                //    for (int j = 0; j < 10; j++)
+                //    {
+                //        a[i, j] = rnd.Next(1, 99);
+                //        if (a[i, j] % 2 == 0)
+                //        {
+                //            sum++;
+
+                //        }
 
 
+
+                //    }
+                //}
+
+                //Console.WriteLine(sum);
+                //
+
+
+            }
         }
     }
-    }
+}
