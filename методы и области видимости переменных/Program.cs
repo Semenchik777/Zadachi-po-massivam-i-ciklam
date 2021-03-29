@@ -40,25 +40,22 @@ namespace методы_и_области_видимости_переменных
             ///// </summary>
 
             //int[] a = new int[] { 5, 12, 13, 2, 1, 9, 15, 19, 6 };
-            //int max, max2;
-            //max = max2 = a[0];
-
-
-
-
-            //for (int i = 1; i < a.Length; i++)
+            //int max = a[0];
+            //int max2 = a[1];
+            
+            //for (int i = 0; i < a.Length; i++)
             //{
-            //    if (a[i] > max)
+            //    if (max<a[i])
             //    {
             //        max2 = max;
-            //         max = a[i];
+            //        max = a[i];
             //    }
-            //    else if (a[i] > max2)
+            //    if (max2<a[i] && a[i]!=max)
             //    {
             //        max2 = a[i];
             //    }
 
-            //}        
+            //}
             //Console.WriteLine(max);
             //Console.WriteLine(max2);
             //Console.ReadLine();
@@ -268,7 +265,7 @@ namespace методы_и_области_видимости_переменных
             //Console.WriteLine(sum);
             //
 
-         
+
         }
     }
     }
