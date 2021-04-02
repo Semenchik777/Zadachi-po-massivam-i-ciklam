@@ -1,14 +1,14 @@
 ﻿using System;
-using Zadachki;
+using Tasks;
 
 
-namespace методы_и_области_видимости_переменных
+namespace csharp_tasks
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Zadachi.Zadacha01();
+            Zadachi.Task01();
         }
     }
 }

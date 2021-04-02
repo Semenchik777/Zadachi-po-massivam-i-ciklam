@@ -1,11 +1,11 @@
 ﻿using System;
 
 
-namespace Zadachki
+namespace Tasks
 {
-    public static class Zadachi
+    public static class Taskscsharp
     {
-        public static void Zadacha01()
+        public static void Task01()
         {
             int x = 10;
             Console.WriteLine(x);
@@ -20,7 +20,7 @@ namespace Zadachki
         }
 
 
-        public static void Zadacha1()
+        public static void Task1()
         {
             /// <summary>
             /// Найти минимальный элемент массива
@@ -40,7 +40,7 @@ namespace Zadachki
             Console.ReadLine();
         }
 
-        public static void Zadacha2()
+        public static void Task2()
         {
             ///// <summary>
             ///// Найти два наибольших элемента массива
@@ -69,7 +69,7 @@ namespace Zadachki
         }
 
 
-        public static void Zadacha3()
+        public static void Task3()
         {
             ///// <summary>
             ///// Посчитать сумму элементов массива
@@ -103,7 +103,7 @@ namespace Zadachki
             Console.ReadLine();
         }
 
-        public static void Zadacha5()
+        public static void Task5()
         {
             /// <summary>
             /// Создать и заполнить массив случайными целыми числами
@@ -123,7 +123,7 @@ namespace Zadachki
             Console.ReadLine();
         }
 
-        public static void Zadacha6()
+        public static void Task6()
         {
 
             /// < summary >
@@ -147,7 +147,7 @@ namespace Zadachki
             }
         }
 
-        public static void Zadacha7()
+        public static void Task7()
         {
             /// <summary>
             /// Переставить элементы массива в обратном порядке используя вспомогательный массив
@@ -168,7 +168,7 @@ namespace Zadachki
             }
 
         }
-        public static void Zadacha7_0()
+        public static void Task7_0()
         {
             //Лист + сортировка
             int[] list = { -71, 9, 6, -3, 43, 8, 10, 12, 14, 3, 9, 5, 791 };
@@ -178,7 +178,7 @@ namespace Zadachki
             Console.WriteLine(max1);
             Console.WriteLine(max2);
         }
-        public static void Zadacha7_1()
+        public static void Task7_1()
         {
             //Сортировка + в обратнмо порядке не использую массив
             int[] a = new int[] { 5, 12, 13, 2, 1, 9, 15, 19, 6 };
@@ -190,7 +190,7 @@ namespace Zadachki
             }
         }
 
-        public static void Zadacha8()
+        public static void Task8()
         {
             /// <summary>
             /// Переставить элементы массива в обратном порядке НЕ используя вспомогательный массив
@@ -202,7 +202,7 @@ namespace Zadachki
                 Console.WriteLine(a[i - 1]);
             }
         }
-        public static void Zadacha8_1()
+        public static void Task8_1()
         {
             //вариант 2
             int[] a = new int[] { 5, 12, 13, 2, 1, 9, 15, 19, 6 };
@@ -213,7 +213,7 @@ namespace Zadachki
             }
         }
 
-        public static void Zadacha9()
+        public static void Task9()
         {
             /// <summary>
             /// Подсчитать сумму чисел в двухмерном массиве
@@ -230,7 +230,7 @@ namespace Zadachki
             //Console.WriteLine(dlina);
         }
 
-        public static void Zadacha10()
+        public static void Task10()
         {
             /// <summary>
             /// Заполнить двумерный массив 10 на 10 случайными числами от 1 до 9 и вывести на экран консоли
@@ -254,7 +254,7 @@ namespace Zadachki
 
         }
 
-        public static void Zadacha11()
+        public static void Task11()
         {
             /// <summary>
             /// Двумерный массив скопировать в одномерный
@@ -275,7 +275,7 @@ namespace Zadachki
             Console.ReadLine();
         }
 
-        public static void Zadacha11_1()
+        public static void Task11_1()
         {
 
             /////2 вариант
@@ -293,7 +293,7 @@ namespace Zadachki
             }
         }
 
-        public static void Zadacha12()
+        public static void Task12()
         {
             /// <summary>
             /// Заполнить двумерный массив 10 на 10 случайными числами от 1 до 99 и определить количество четных чисел в массиве
@@ -326,7 +326,7 @@ namespace Zadachki
             Console.WriteLine(sum);
         }
 
-        public static void Zadacha13()
+        public static void Task13()
         {
 
             /// <summary>
